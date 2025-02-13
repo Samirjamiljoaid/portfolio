@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.request-notification {
+    background-color: #ffcc00;  /* A soft yellow background */
+    padding: 15px;
+    margin: 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.request-notification a {
+    color: #0073b1; /* LinkedIn's blue color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.request-notification a:hover {
+    text-decoration: underline;
+}

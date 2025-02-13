@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samir's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link
+      rel="icon"
+      href="images/apps_social_media_logo_shapes_shape_website_software_icon_182727.png"
+    />
+  </head>
+  <body>
+    <nav>
+      <a href="#education">Education</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact Me</a>
+    </nav>
+
+    <header
+      id="home"
+      style="
+        background: url('https://64.media.tumblr.com/90745e74ce8cd00b89f7d03370c67f40/9e262ae8cfde02ea-c0/s500x750/e7afbc1acce301cc47f85ebe5a8dc84ed6d9d633.gif')
+          no-repeat center center;
+        background-size: cover;
+      "
+    >
+      <h1 style="font-size: 3em; font-family: Arial, sans-serif">
+        <span
+          style="
+            display: inline-block;
+            opacity: 0;
+            animation: fadeIn 3s forwards;
+            animation-delay: 0.2s;
+          "
+          >Welcome
+        </span>
+        <span
+          style="
+            display: inline-block;
+            opacity: 0;
+            animation: fadeIn 3s forwards;
+            animation-delay: 0.4s;
+          "
+          >to
+        </span>
+        <span
+          style="
+            display: inline-block;
+            opacity: 0;
+            animation: fadeIn 3s forwards;
+            animation-delay: 0.6s;
+          "
+          >My
+        </span>
+        <span
+          style="
+            display: inline-block;
+            opacity: 0;
+            animation: fadeIn 3s forwards;
+            animation-delay: 0.8s;
+          "
+          >Portfolio</span
+        >
+      </h1>
+
+      <style>
+        h1:hover span {
+          color: #10ff18; /* Professional green */
+          transform: scale(1);
+          transition: color 0.3s step-start, text-shadow 0.3s step-start,
+            transform 0.3s step-start;
+        }
+
+        @keyframes fadeIn {
+          to {
+            opacity: 1;
+          }
+        }
+      </style>
+      <p>
+        <span style="font-weight: 500" id="it"
+          >IT Support Specialist | Full Stack Web Developer</span
+        >
+        <style>
+            #it:hover {
+            color: rgb(255, 255, 255); /* Change text color to white on hover */
+            text-shadow: 0 0 10px rgba(255, 251, 251, 0.8),
+              0 0 20px rgba(255, 255, 255, 0.6),
+              0 0 30px rgba(255, 255, 255, 0.6); /* Glowing effect */
+          }
+        </style>
+      </p>
+    </header>
+
+    <section id="about">
+      <h2 class="edu">About Me</h2>
+      <p>
+        I am Samir, a Telecommunications Engineer and experienced IT Support
+        Specialist with a strong background in troubleshooting, diagnostics, and
+        development.
+      </p>
+      <p>
+        I am passionate about problem-solving, network management, and building
+        efficient web applications to enhance system performance and user
+        experience.
+      </p>
+    </section>
+
+    <section id="education">
+      <h2 class="edu">
+        <style>
+          .edu {
+            color: #4ee253; /* Default text color */
+            font-size: 2em; /* Increase font size for more impact */
+            transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth transitions */
+          }
+
+          .edu:hover {
+            color: rgb(243, 243, 243); /* Change text color to white on hover */
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+              0 0 20px rgba(28, 255, 8, 0.6), 0 0 30px rgba(11, 255, 2, 0.6); /* Glowing effect */
+          }</style
+        >Education
+      </h2>
+      <p>
+        I am pursuing a Bachelor of Science in Telecommunications Engineering at
+        the Lebanese International University in Beirut, expected to graduate in
+        2026. I have a GPA of 3.5/4 and have been included in the Dean's List.
+        As an active IEEE member in the Communications Department, I participate
+        in various events and initiatives. I also maintain a strong social
+        presence within the Faculty of Engineering and have earned
+        recommendations for my academic achievements and involvement.
+      </p>
+    </section>
+
+    <section id="experience">
+      <h2 class="edu">Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3 class="company-name vanrise">
+            Full-Stack Web Developer – Vanrise Solutions
+          </h3>
+          <p>
+            Developed end-to-end applications using C# and ASP.NET, ensuring
+            scalable and efficient solutions for business operations.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <h3 class="company-name monty-mobile">
+            Technical Account Manager – Monty Mobile
+          </h3>
+          <p>
+            Designed and implemented AI-powered chatbots using Dialogflow, Rasa,
+            and Python with Flask, enhancing customer engagement and automation.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <h3 class="company-name codsoft">
+            Full-Stack Java Developer – Codsoft
+          </h3>
+          <p>
+            Developed full-stack applications using Java for backend logic and
+            MySQL for database management, ensuring seamless and efficient
+            data-driven solutions.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <h3 class="company-name unigaz">
+            Help Desk Support Technician – Unigaz
+          </h3>
+          <p>
+            Provided IT support by diagnosing and resolving technical issues
+            through a ticketing system while assisting in server maintenance and
+            troubleshooting.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <h2 class="edu">My Skills</h2>
+      <ul>
+        <li>IT Support & Technical Troubleshooting</li>
+        <br />
+        <li>Network Diagnostics, Windows Maintenance, and Server Management</li>
+        <br />
+        <li>Web Development (HTML, CSS, JavaScript, PHP, MySQL)</li>
+        <br />
+        <li>Programming Languages (C#, Java, Python, Kotlin)</li>
+        <br />
+        <li>Database Management (MySQL, PostgreSQL, MongoDB)</li>
+        <br />
+        <li>System Administration & Infrastructure Management</li>
+        <br />
+        <li>System Administration & Infrastructure Management</li>
+        <br />
+      </ul>
+      <div class="skill-bar">
+        <div class="skill" style="width: 100%"></div>
+      </div>
+    </section>
+
+    <section id="certifications">
+      <h2 class="edu">Certifications</h2>
+      <p>
+        Below are the top certifications I hold. For a complete list, please
+        visit my
+        <a
+          href="https://www.linkedin.com/in/eng-samir-jamil-jouaid-75475427a/details/certifications/"
+          style="color: whitesmoke; text-decoration: none"
+          >LinkedIn</a
+        >
+        profile.
+      </p>
+      <ul>
+        <li>
+          <strong>CompTIA A+</strong>
+          <details>
+            <summary>Details</summary>
+            <p>
+              Issued by <span style="color: rgb(255, 0, 0)">CompTIA</span> |
+              <a
+                href="https://www.coursera.org/account/accomplishments/verify/QPK1LM1U4G7W?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+                >Link</a
+              >
+            </p>
+          </details>
+        </li>
+        <li>
+          <strong>Google Cloud Infrastructure</strong>
+          <details>
+            <summary>Details</summary>
+            <p>
+              Issued by <span style="color: rgb(126, 126, 250)">G</span
+              ><span style="color: red">o</span
+              ><span style="color: rgb(252, 181, 50)">o</span
+              ><span style="color: rgb(126, 126, 250)">g</span
+              ><span style="color: green">l</span
+              ><span style="color: red">e</span> |
+              <a
+                href="https://www.coursera.org/account/accomplishments/verify/WJTTD8AALK2D?utm_source=ios&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+                >Link</a
+              >
+            </p>
+          </details>
+        </li>
+        <li>
+          <strong>Fortinet Network Security Support Engineer</strong>
+          <details>
+            <summary>Details</summary>
+            <p>
+              Issued by
+              <span style="color: rgb(0, 0, 0)"
+                >F<span style="color: red">O</span>RTINET</span
+              >
+              |
+              <a
+                href="https://www.coursera.org/account/accomplishments/verify/7DE2D1PFDQBG?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+                >Link</a
+              >
+            </p>
+          </details>
+        </li>
+        <li>
+          <strong>Dell Technologies Technical Support</strong>
+          <details>
+            <summary>Details</summary>
+            <p>
+              Issued by
+              <span
+                style="
+                  font-weight: bold;
+                  font-size: 18px;
+                  color: rgb(50, 135, 193);
+                "
+                >D</span
+              ><span
+                style="
+                  font-weight: bold;
+                  font-size: 16px;
+                  transform: rotate(-40deg);
+                  display: inline-block;
+                  color: rgb(50, 135, 193);
+                "
+                >E</span
+              ><span
+                style="
+                  font-weight: bold;
+                  font-size: 18px;
+                  color: rgb(50, 135, 193);
+                "
+                >LL</span
+              >
+              |
+              <a
+                href="https://www.coursera.org/account/accomplishments/verify/KW3PJ3W6IAEB?utm_source=mobile&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+                >Link</a
+              >
+            </p>
+          </details>
+        </li>
+        <li>
+          <strong>Developing AI Applications with Python and Flask</strong>
+          <details>
+            <summary>Details</summary>
+            <p>
+              Issued by
+              <span
+                style="
+                  font-weight: bold;
+                  font-size: 18px;
+                  color: rgb(31, 112, 193);
+                "
+                >IBM</span
+              >
+              |
+              <a
+                href="https://www.linkedin.com/in/eng-samir-jamil-jouaid-75475427a/details/certifications/339068712/multiple-media-viewer/?profileId=ACoAAEQZKDAB4FC9Bf8nd7kwiWa_b2N-AtcTzfk&treasuryMediaId=1726915922658"
+                >Link</a
+              >
+            </p>
+          </details>
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      <h2>Find Me Online</h2>
+      <div class="social-links">
+        <a
+          href="https://wa.me/your-whatsapp-link"
+          target="_blank"
+          style="
+            font-family: sans-serif;
+            display: inline-block;
+            margin-right: 10px;
+          "
+        >
+          <img
+            src="images/iconfinder-social-media-applications-3instagram-4102579_113804 (1).png"
+            alt="Instagram"
+            style="width: 25px; height: 25px"
+          />
+        </a>
+
+        <a
+          href="images/upon request.html"
+          target="_blank"
+          style="
+            font-family: sans-serif;
+            display: inline-block;
+            margin-right: 10px;
+          "
+        >
+          <img
+            src="images/whatsapp_socialnetwork_17360.png"
+            alt="WhatsApp"
+            style="width: 30px; height: 27px"
+          />
+        </a>
+        <a
+          href="http://linkedin.com/in/eng-samir-jamil-jouaid-75475427a"
+          target="_blank"
+          style="font-family: sans-serif; display: inline-block"
+        >
+          <img
+            src="images/linked_icon-icons.com_66731.png"
+            alt="LinkedIn"
+            style="width: 25px; height: 25px"
+          />
+        </a>
+        <a
+          href="mailto:samirjamiljoaid1@gmail.com"
+          target="_parent"
+          style="
+            font-family: sans-serif;
+            display: inline-block;
+            margin-right: 10px;
+          "
+        >
+          <img
+            src="images/4202011emailgmaillogomailsocialsocialmedia-115677_115624.png"
+            alt="Instagram"
+            style="width: 25px; height: 25px; padding-left: 10px"
+          />
+        </a>
+      </div>
+
+      <p style="color: rgb(202, 198, 198)">
+        &copy; 2025 Samir Jamil Jouaid. All Rights Reserved. Unauthorized
+        reproduction, distribution, or transmission of this content, in whole or
+        in part, is strictly prohibited without the express written consent of
+        the copyright holder.
+      </p>
+    </footer>
+  </body>
+</html>
